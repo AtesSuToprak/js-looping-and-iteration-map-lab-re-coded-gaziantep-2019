@@ -1,4 +1,5 @@
 // Code your solution in this file.
+<<<<<<< HEAD
 function lowerCaseDrivers(drivers) {
   
  return drivers.map(function(name){
@@ -24,6 +25,16 @@ function attributesToPhrase(drivers) {
 }
 
 
+=======
+function map(array,lowerCaseDrivers()){
+  const drivers=[];
+  for (const element of array){
+    drivers.push('Bobby', 'Sammy','Sally','Annette','Sarah','Bobby');
+  }
+  return drivers.toLowerCase();
+}
+
+>>>>>>> 1a12841349e8afb42e2eea98fa3ec1bc409ff040
 /*
 describe('index.js', () => {
   describe('lowerCaseDrivers()', () => {
